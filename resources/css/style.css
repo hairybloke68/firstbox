@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+nav {
+    color: aliceblue;
+    text-align: right;
+    padding: 5px 20px;
+}
+
+nav a {
+    padding-right: 15px;
+    font-family: Tahoma;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 46px;
+}
+
+#top-section {
+    background-image: url("")
+}
