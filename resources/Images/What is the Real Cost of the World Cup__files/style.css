@@ -1,0 +1,78 @@
+/*
+ Theme Name:   Publisher Child
+ Theme URI:    http://djmweb.co
+ Description:  Publisher Child Theme
+ Author:       Daniel John Marsden
+ Author URI:   http://djmweb.co
+ Template:     publisher
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  publisher-child
+*/
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+.main-link.active {background:black; background: black; width: 50%; display: block; float: left;}
+.main-link span {margin: 0; padding: 0; width: 50%; border: none;}
+
+.ilcc-cookie-consent-button {color:white !important; font-size:10px !important;}
+.ilcc-cookie-consent-notice-content p, body.ilcc-style-overlay .ilcc-cookie-consent-notice p span, .ilcc-cookie-consent-settings-toggle {font-size:12px;}
+.ilcc-cookie-consent-settings-toggle {color:white ;font-size:10px;}
+.ilcc-cookie-consent-actions {display:block;}
+
+.GoogleActiveViewElement, .dcmads {max-width:100%;}
+#cdw-ad div {max-width:100%;}
+
+
+
+/* 2021 
+.header-inner {background:black;}
+*/
+
+/* NEW STYLES BLACK AND RED
+ */
+header#header {background:#111111;}
+img#site-logo {width:350px; max-width:100%;}
+.site-header .top-menu.menu>li>a, .topbar .topbar-sign-in {color:White !important;}
+.tag-container {display:none !important; }
+header #locations {display:none !important}
+
+.home .main-section {margin-bottom:0 !important;}
+
+.site-header.header-style-2.full-width .main-menu-wrapper {background:#c01720 !important;}
+
+.main-menu li>a, .main-menu li, .off-canvas-menu>ul>li>a {font-family:roboto condensed !important;}
+
+.main-bg-color, .main-menu.menu .sub-menu li.current-menu-item:hover>a:hover, .main-menu.menu .better-custom-badge, .off-canvas-menu .menu .better-custom-badge, ul.sub-menu.bs-pretty-tabs-elements .mega-menu.mega-type-link .mega-links>li:hover>a, .widget.widget_nav_menu .menu .better-custom-badge, .widget.widget_nav_menu ul.menu li>a:hover, .widget.widget_nav_menu ul.menu li.current-menu-item>a, .rh-header .menu-container .resp-menu .better-custom-badge, .bs-popular-categories .bs-popular-term-item:hover .term-count, .widget.widget_tag_cloud .tagcloud a:hover, span.dropcap.dropcap-square, span.dropcap.dropcap-circle, .better-control-nav li a.better-active, .better-control-nav li:hover a, .main-menu.menu>li:hover>a:before, .main-menu.menu>li.current-menu-parent>a:before, .main-menu.menu>li.current-menu-item>a:before, .main-slider .better-control-nav li a.better-active, .main-slider .better-control-nav li:hover a, .site-footer.color-scheme-dark .footer-widgets .widget.widget_tag_cloud .tagcloud a:hover, .site-footer.color-scheme-dark .footer-widgets .widget.widget_nav_menu ul.menu li a:hover, .entry-terms.via a:hover, .entry-terms.source a:hover, .entry-terms.post-tags a:hover, .comment-respond #cancel-comment-reply-link, .better-newsticker .heading, .better-newsticker .control-nav span:hover, .listing-item-text-1:hover .term-badges.floated .term-badge a, .term-badges.floated a, .archive-title .term-badges span.term-badge a:hover, .post-tp-1-header .term-badges a:hover, .archive-title .term-badges a:hover, .listing-item-tb-2:hover .term-badges.floated .term-badge a, .btn-bs-pagination:hover, .btn-bs-pagination.hover, .btn-bs-pagination.bs-pagination-in-loading, .bs-slider-dots .bs-slider-active>.bts-bs-dots-btn, .listing-item-classic:hover a.read-more, .bs-loading>div, .pagination.bs-links-pagination a:hover, .footer-widgets .bs-popular-categories .bs-popular-term-item:hover .term-count, .footer-widgets .widget .better-control-nav li a:hover, .footer-widgets .widget .better-control-nav li a.better-active, .bs-slider-2-item .content-container a.read-more, .bs-slider-3-item .content-container a.read-more, .main-menu.menu .sub-menu li.current-menu-item:hover>a, .main-menu.menu .sub-menu>li:hover>a, .bs-slider-2-item .term-badges.floated .term-badge a, .bs-slider-3-item .term-badges.floated .term-badge a, .listing-item-blog:hover a.read-more, .back-top, .site-header .shop-cart-container .cart-handler .cart-count, .site-header .shop-cart-container .cart-box:after, .single-attachment-content .return-to:hover .fa, .topbar .topbar-date, .ajax-search-results:after, .better-gallery .gallery-title .prev:hover, .better-gallery .gallery-title .next:hover, .comments-template-multiple .nav-tabs .active a:after, .comments-template-multiple .active .comments-count, .off-canvas-inner:after, .more-stories:before, .bs-push-noti .bs-push-noti-wrapper-icon, .post-count-badge.pcb-t1.pcb-s1, .bs-fpe.bs-fpe-t2 thead, .post-tp-1-header .term-badges a, .listing-item.listing-item-tb-2 .term-badges.floated .term-badge a, .entry-terms.entry-terms .terms-label {background:#c01720 !important;}
+
+.section-heading.sh-t4 a.active .h-text, .section-heading.sh-t4 .main-link:first-child:last-child .h-text, .section-heading.sh-t4>.h-text {background:#c01720 !important; padding-right:"0px;"}
+
+.topbar .better-social-counter.style-button .social-item .item-icon {font-size: 12px !important; color: #fff !important; background: #c01720 !important;}
+.topbar .better-social-counter.style-button .social-item .item-icon:hover {background:white !important; color: #c01720 !important;}
+.topbar .better-social-counter.style-button .social-item:hover .item-icon {background:white !important; color: #c01720 !important;}
+img.item-icon.bsfi-facebook.new-feedly-btn {display:none !important;}
+
+
+.section-heading span.h-text {width:auto;}
+.section-heading.sh-t4.sh-s4 .h-text.main-term-814, .section-heading.sh-t4.sh-s4 .h-text.main-term-814:before, .section-heading.sh-t4.sh-s5 .h-text.main-term-814, .section-heading.sh-t4.sh-s6 a.active .h-text.main-term-814, .section-heading.sh-t4.sh-s6 .main-link .h-text.main-term-814 {background-color:#c01720 !important}
+.site-footer .footer-widgets, .footer-widgets .section-heading.sh-t4.sh-s5 .h-text:after {
+    background-color: #0f0f0f !important;
+}
+
+.section-heading.sh-t4.sh-s4 .h-text {line-height:27px !important; height:30px !important;}
+.section-heading.sh-t4.sh-s4 .h-text:before {height:30px !important; background:#dd3333 !important}
+
+.section-heading.sh-t4.sh-s4 .h-text, .section-heading.sh-t4.sh-s4 .h-text:before, .section-heading.sh-t4.sh-s5 .h-text, .section-heading.sh-t4.sh-s6 a.active .h-text, .section-heading.sh-t4.sh-s6 .main-link .h-text {background:#dd3333 !important}
+.section-heading.sh-t4.sh-s4 .h-text:before {right: -8px !important; width: 18px !important;}
+
+.site-footer .footer-widgets, .footer-widgets .section-heading.sh-t4.sh-s5 .h-text:after {background:black !important;}
