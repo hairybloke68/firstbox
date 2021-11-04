@@ -20,6 +20,10 @@ h1 {
     font-size: 46px;
 }
 
-#top-section {
-    background-image: url("")
+#top-section img {
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
 }
